@@ -27,7 +27,7 @@ const CSR = () => {
       </div>
       {state.map((item: any) => {
         return (
-          <div className="my-4">
+            <div className="my-4" key={item.id}>
             <h2 className="underline">
               Id: {item.id}
               <br />
